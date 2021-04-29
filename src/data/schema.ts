@@ -14,8 +14,8 @@ composer.Query.addFields({
 
 composer.Mutation.addFields({
   ...UserMutation,
-  ...TodoListQuery,
-  ...TodoItemQuery,
+  ...TodoListMutation,
+  ...TodoItemMutation,
 })
 
 const schema = composer.buildSchema();
